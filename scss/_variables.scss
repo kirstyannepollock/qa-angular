@@ -1,0 +1,191 @@
+// Layout
+$random-width: 20px;
+
+$layout-bounds: 720px;
+$gutter-width: 20px;
+
+$mobile-breakpoint: 640px;
+$tablet-breakpoint: 1200px;
+
+// Type
+
+$display-font: "Work Sans", sans-serif;
+$body-font: "Cousine";
+
+$headers: h1, h2, h3, h4, h5, h6;
+$headers-array: $headers;
+
+$h1: 3.8rem;
+$h2: 2.4rem;
+$h3: 1.8rem;
+$h4: 1.6rem;
+$h5: 1.4rem;
+$h6: 1.4rem;
+
+// Colors
+
+$display-color: #222;
+$body-color: #666;
+
+$primary: #689b98;
+$secondary: #7c689b;
+
+$link: $primary;
+$link-hover: darken($link, 10%);
+$link-secondary: lighten($link, 20%);
+
+$color-inactive: #999;
+$secondary-label: lighten($secondary, 20%);
+
+$positive: #54b26c;
+$negative: #ed5a5a;
+
+$button-color: #2690c6;
+
+$header-color: darken($link, 10%);
+$background-color: #fff;
+
+$border-color: #e1e1e1;
+
+//////////////////////////////////////
+// Icons
+
+$icon-font: "Circle" !default;
+$icon-font-path: "../icons" !default;
+
+$icon-chevron-down: "";
+$icon-chevron-left: "";
+$icon-chevron-right: "";
+$icon-chevron-up: "";
+$icon-message-tail-right: "";
+$icon-message-tail-left: "";
+$icon-eye: "";
+$icon-paper-clip: "";
+$icon-mail: "";
+$icon-toggle: "";
+$icon-layout: "";
+$icon-link: "";
+$icon-bell: "";
+$icon-lock: "";
+$icon-unlock: "";
+$icon-ribbon: "";
+$icon-image: "";
+$icon-signal: "";
+$icon-target: "";
+$icon-clipboard: "";
+$icon-clock: "";
+$icon-watch: "";
+$icon-air-play: "";
+$icon-camera: "";
+$icon-video: "";
+$icon-disc: "";
+$icon-printer: "";
+$icon-monitor: "";
+$icon-server: "";
+$icon-cog: "";
+$icon-heart: "";
+$icon-paragraph: "";
+$icon-align-justify: "";
+$icon-align-left: "";
+$icon-align-center: "";
+$icon-align-right: "";
+$icon-book: "";
+$icon-layers: "";
+$icon-stack: "";
+$icon-stack-2: "";
+$icon-paper: "";
+$icon-paper-stack: "";
+$icon-search: "";
+$icon-zoom-in: "";
+$icon-zoom-out: "";
+$icon-reply: "";
+$icon-circle-plus: "";
+$icon-circle-minus: "";
+$icon-circle-check: "";
+$icon-circle-cross: "";
+$icon-square-plus: "";
+$icon-square-minus: "";
+$icon-square-check: "";
+$icon-square-cross: "";
+$icon-microphone: "";
+$icon-record: "";
+$icon-skip-back: "";
+$icon-rewind: "";
+$icon-play: "";
+$icon-pause: "";
+$icon-stop: "";
+$icon-fast-forward: "";
+$icon-skip-forward: "";
+$icon-shuffle: "";
+$icon-repeat: "";
+$icon-folder: "";
+$icon-umbrella: "";
+$icon-moon: "";
+$icon-thermometer: "";
+$icon-drop: "";
+$icon-sun: "";
+$icon-cloud: "";
+$icon-cloud-upload: "";
+$icon-cloud-download: "";
+$icon-upload: "";
+$icon-download: "";
+$icon-location: "";
+$icon-location-2: "";
+$icon-map: "";
+$icon-battery: "";
+$icon-head: "";
+$icon-briefcase: "";
+$icon-speech-bubble: "";
+$icon-anchor: "";
+$icon-globe: "";
+$icon-box: "";
+$icon-reload: "";
+$icon-share: "";
+$icon-marquee: "";
+$icon-marquee-plus: "";
+$icon-marquee-minus: "";
+$icon-tag: "";
+$icon-power: "";
+$icon-command: "";
+$icon-alt: "";
+$icon-esc: "";
+$icon-bar-graph: "";
+$icon-bar-graph-2: "";
+$icon-pie-graph: "";
+$icon-star: "";
+$icon-arrow-left: "";
+$icon-arrow-right: "";
+$icon-arrow-up: "";
+$icon-arrow-down: "";
+$icon-volume: "";
+$icon-mute: "";
+$icon-content-right: "";
+$icon-content-left: "";
+$icon-grid: "";
+$icon-grid-2: "";
+$icon-columns: "";
+$icon-loader: "";
+$icon-bag: "";
+$icon-ban: "";
+$icon-flag: "";
+$icon-trash: "";
+$icon-expand: "";
+$icon-contract: "";
+$icon-maximize: "";
+$icon-minimize: "";
+$icon-plus: "";
+$icon-minus: "";
+$icon-check: "";
+$icon-cross: "";
+$icon-move: "";
+$icon-delete: "";
+$icon-menu: "";
+$icon-archive: "";
+$icon-inbox: "";
+$icon-outbox: "";
+$icon-file: "";
+$icon-file-add: "";
+$icon-file-subtract: "";
+$icon-help: "";
+$icon-open: "";
+$icon-ellipsis: "";
